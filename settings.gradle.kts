@@ -1,12 +1,7 @@
+// settings.gradle.kts
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -17,8 +12,12 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Adicione estes repositórios alternativos:
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
-rootProject.name = "PianoSensorv1"
+rootProject.name = "PianoAPP"
 include(":app")

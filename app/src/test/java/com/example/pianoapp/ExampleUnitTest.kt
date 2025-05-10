@@ -1,4 +1,4 @@
-package com.example.pianosensorv1
+package com.example.pianoapp
 
 import org.junit.Test
 
