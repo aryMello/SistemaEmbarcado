@@ -1,2 +1,3 @@
-# SistemaEmbarcado
-Projeto Sistema embarcado e IoT
+# Projeto Sistema embarcado e IoT
+## Luva Musical
+Este projeto apresenta o desenvolvimento de um sistema embarcado para simulação de teclas de piano utilizando sensores e microcontroladores. O sistema propõe a detecção de movimento dos dedos e pressão aplicada através de sensores de flexão, sensores de pressão e IMUs. O áudio gerado é transmitido para um aplicativo mobile desenvolvido em Kotlin, responsável pela reprodução dos sons do piano.
