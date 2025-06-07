@@ -33,13 +33,13 @@ const int pianoKeys[34] = {
 };
 
 // ========== WiFi & MQTT ==========
-const char* ssid = "Mobile_Mello";
-const char* password = "#Bobesponja$02";
+const char* ssid = "";
+const char* password = "";
 
-const char* mqttServer = "192.168.197.7"; // Use actual IP of your MQTT broker
+const char* mqttServer = ""; // Use actual IP of your MQTT broker
 const int mqttPort = 1883;
-const char* mqttUser = "mello";     
-const char* mqttPassword = "Bobesponja02";
+const char* mqttUser = "";     
+const char* mqttPassword = "";
 const char* mqttTopic = "piano/sensor";
 
 WiFiClient wifiClient;
